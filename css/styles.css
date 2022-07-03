@@ -1,0 +1,209 @@
+body {
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  color: #212121;
+}
+
+header {
+  background-color: #ffffff;
+}
+
+.title-background {
+  background-color: #2f303a;
+  box-sizing: border-box;
+
+  width: 1600px;
+  height: 600px;
+}
+
+.logo {
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1, 19230769;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-decoration: none;
+}
+
+.first-word {
+  color: #2196f3;
+}
+
+.second-word {
+  color: #000000;
+}
+.nav {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1, 14285714;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-decoration: none;
+  color: #212121;
+}
+
+.nav:hover,
+.nav:focus {
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.contact {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1, 14285714;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-decoration: none;
+  color: #757575;
+}
+.contact:hover,
+.contact:focus {
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.title {
+  font-family: Roboto;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1, 36363636;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #ffffff;
+}
+
+.button {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1, 875;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #2196f3;
+}
+
+.paragraf-title {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1, 14285714;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.paragraf {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1, 71428571;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #757575;
+}
+
+.section-background {
+  background-color: #f5f4fa;
+}
+.section-title {
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1, 16666667;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.signature-name {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1, 1875;
+  letter-spacing: 0.03em;
+  text-align: center;
+  display: block;
+}
+
+.signature-job {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1, 875;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #757575;
+  display: block;
+}
+
+.address {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1, 71428571;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.buttons {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1, 625;
+  letter-spacing: 0.03em;
+  text-align: center;
+  cursor: pointer;
+  background-color: #f5f4fa;
+}
+
+.buttons:hover,
+.buttons:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.image-signature {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-align: left;
+  display: block;
+}
+
+.image-type {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1, 875;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #757575;
+  display: block;
+}
+
+.footer-contact {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1, 71428571; /* czy trzeba jakoś zaokrąglać mnożnik? */
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-decoration: none;
+  color: #ffffff60;
+  /* nie wiem na jaki kolor ma zmieniać się kontakt po najechaniu kursorem C5 */
+}
+
+footer {
+  background-color: #2f303a;
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+}
